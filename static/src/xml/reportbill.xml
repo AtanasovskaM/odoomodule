@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="ReportBillButton">
+        <span class="control-button order-reportbill">
+            <i class="fa fa-print"></i>
+            Report
+        </span>
+    </t>
+
+       <t t-name="ReportBillScreenWidget">
+        <div class='reportbill-screen screen'>
+            <div>
+                 <span class="from">
+                            From:
+                     <input type="text" class="input1" id="from" name="from"> </input>
+                 </span>                                        
+           </div>
+            <div>   
+                 <span class="to">
+                            To:
+                     <input type="text" class="input2" id="to" name="to"> </input>
+                </span>
+                 </div> 
+        </div>
+    </t>
+
+</templates>
