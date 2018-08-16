@@ -9,7 +9,7 @@ This module extends Point of Sale module by adding four buttons:
 the bill machine will print a bill with info about all the earnings in that period.
 
 With every click on the button, the module creates a file named PF500.IN which is in Fiskalna folder. It writes specific letters, numbers and
-special characters. After that calls an .exe file which is in the same folder as the .IN file and with that it gives 
-command to the machine to know what to print.
+special characters. After that calls it an .exe file which is in the same folder as the .IN file and with that it gives 
+command to the machine to know what kind of bill to print.
 
 It has been tested on Google Chrome and Mozilla.
