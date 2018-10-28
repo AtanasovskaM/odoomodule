@@ -4,7 +4,7 @@ Odoo module for extending Point of Sale
 This module extends Point of Sale module by adding four buttons:
 - 'Потврди' which prints the bill with all the selected products 
 - 'Сторнирај' is for when a customer wants to return an item/products.
-- 'Завршен' can be printed once a day, not more. It gives the all the earnings of the day.
+- 'Завршен' can be printed once a day, not more. It gives all the earnings of the day.
 - 'Извештај' shows a new interface where you can pick date from and date to, and on the button 'Печати' in the same interface
 the bill machine will print a bill with info about all the earnings in that period.
 
